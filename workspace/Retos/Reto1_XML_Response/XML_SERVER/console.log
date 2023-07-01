@@ -1,0 +1,77 @@
+2023-04-27 10:33:08.360821: BIP1990I: El servidor de integración 'XML_SERVER' está empezando la inicialización; versión '12.0.7.0' (64 bits) 
+2023-04-27 10:33:08.384456: BIP9905I: Inicializando gestores de recursos. 
+"C:\Program" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+Listening for transport dt_socket at address: 9998
+2023-04-27 10:33:35.121008: BIP9906I: Leyendo recursos desplegados. 
+2023-04-27 10:33:35.171508: BIP9907I: Inicializando recursos desplegados. 
+2023-04-27 10:33:35.179364: BIP2155I: A punto de 'Initialize' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:33:35.659384: BIP2155I: A punto de 'Start' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:33:35.660052: BIP2269I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-27 10:33:42.270980: BIP2866I: La administración de seguridad de IBM App Connect Enterprise es inactive. 
+2023-04-27 10:33:42.284424: BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7601' para conexiones 'RestAdmin http'. 
+2023-04-27 10:33:42.290516: BIP1991I: El servidor de integración ha terminado la inicialización. 
+2023-04-27 10:34:11.779229: BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 10:34:11.791845: BIP9339W: Los valores definidos en la(s) política(s) 'Policy' del proyecto de política 'Policy' coinciden con los valores de política(s) existente(s). Los recursos desplegados que utilicen la(s) política(s) no se verán afectados por el redespliegue del proyecto de política. 
+2023-04-27 10:34:11.797499: BIP9326I: El origen 'Policyproject.generated.bar' se ha desplegado correctamente. 
+2023-04-27 10:34:11.798731: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-27 10:34:22.425270: BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 10:34:22.455340: BIP2155I: A punto de 'Stop' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:34:27.777424: BIP2271I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-27 10:34:27.777508: BIP2155I: A punto de 'TearDown' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:34:27.813512: BIP2155I: A punto de 'Initialize' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:34:27.830836: BIP2155I: A punto de 'Start' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:34:27.831102: BIP2269I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-27 10:34:27.831158: BIP9332I: Application 'XML_Application' se ha changed correctamente. 
+2023-04-27 10:34:27.831186: BIP9326I: El origen 'XML_Applicationproject.generated.bar' se ha desplegado correctamente. 
+2023-04-27 10:34:27.831510: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-27 10:35:25.016420: BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 10:35:25.043688: BIP2155I: A punto de 'Stop' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:35:26.249304: BIP2271I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-27 10:35:26.249396: BIP2155I: A punto de 'TearDown' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:35:26.285944: BIP2155I: A punto de 'Initialize' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:35:26.303160: BIP2155I: A punto de 'Start' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:35:26.303478: BIP2269I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-27 10:35:26.303536: BIP9332I: Application 'XML_Application' se ha changed correctamente. 
+2023-04-27 10:35:26.303578: BIP9326I: El origen 'XML_Applicationproject.TestMode.bar' se ha desplegado correctamente. 
+2023-04-27 10:35:26.304010: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-27 10:38:49.248304: BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 10:38:49.277296: BIP2155I: A punto de 'Stop' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:38:50.386192: BIP2271I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-27 10:38:50.386272: BIP2155I: A punto de 'TearDown' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:38:50.425056: BIP2155I: A punto de 'Initialize' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:38:50.448540: BIP2155I: A punto de 'Start' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:38:50.448820: BIP2269I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-27 10:38:50.448892: BIP9332I: Application 'XML_Application' se ha changed correctamente. 
+2023-04-27 10:38:50.448932: BIP9326I: El origen 'XML_Applicationproject.TestMode.bar' se ha desplegado correctamente. 
+2023-04-27 10:38:50.449304: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-27 10:40:01.350520: BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 10:40:01.375188: BIP2155I: A punto de 'Stop' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:40:02.654200: BIP2271I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-27 10:40:02.654284: BIP2155I: A punto de 'TearDown' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:40:02.684552: BIP2155I: A punto de 'Initialize' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:40:02.700886: BIP2155I: A punto de 'Start' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:40:02.701209: BIP2269I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-27 10:40:02.701252: BIP9332I: Application 'XML_Application' se ha changed correctamente. 
+2023-04-27 10:40:02.701280: BIP9326I: El origen 'XML_Applicationproject.TestMode.bar' se ha desplegado correctamente. 
+2023-04-27 10:40:02.701579: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-27 10:45:54.602656: BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 10:45:54.637604: BIP2155I: A punto de 'Stop' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:45:58.855172: BIP2271I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-27 10:45:58.855308: BIP2155I: A punto de 'TearDown' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:45:58.886736: BIP2155I: A punto de 'Initialize' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:45:58.906620: BIP2155I: A punto de 'Start' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:45:58.907948: BIP2269I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-27 10:45:58.908064: BIP9332I: Application 'XML_Application' se ha changed correctamente. 
+2023-04-27 10:45:58.908116: BIP9326I: El origen 'XML_Applicationproject.TestMode.bar' se ha desplegado correctamente. 
+2023-04-27 10:45:58.909132: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-27 10:46:34.381060: BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 10:46:34.430872: BIP2155I: A punto de 'Stop' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:46:36.022372: BIP2271I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-27 10:46:36.022460: BIP2155I: A punto de 'TearDown' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:46:36.066028: BIP2155I: A punto de 'Initialize' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:46:36.089000: BIP2155I: A punto de 'Start' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 10:46:36.089296: BIP2269I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-27 10:46:36.089332: BIP9332I: Application 'XML_Application' se ha changed correctamente. 
+2023-04-27 10:46:36.089364: BIP9326I: El origen 'XML_Applicationproject.TestMode.bar' se ha desplegado correctamente. 
+2023-04-27 10:46:36.090028: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 

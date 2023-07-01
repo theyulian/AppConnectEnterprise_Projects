@@ -1,0 +1,17 @@
+CREATE COMPUTE MODULE Flow_Compute2
+CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		DECLARE realTime CHAR;
+		SET realTime = CAST(CURRENT_TIMESTAMP AS CHARACTER FORMAT 'yyyy-MM-dd HH:mm:ss.ssssss-ss:ss');
+		
+		DECLARE NS1 NAMESPACE 'http://dolab.com/intf/V3.0';
+		SET OutputRoot.XMLNSC.NS1:esbXML.(XML.NamespaceDecl)xmlns:NS1 = 'http://dolab.com/intf/V3.0';
+		SET OutputRoot.XMLNSC.NS1:esbXML.Header.timestamp = realTime;
+		SET OutputRoot.XMLNSC.NS1:esbXML.Header.responseData.status = 'Error';
+		SET OutputRoot.XMLNSC.NS1:esbXML.Body.codigo = '500';
+		SET OutputRoot.XMLNSC.NS1:esbXML.Body.descripcion = 'El pais no se encontró';
+		RETURN TRUE;
+		
+	END;
+END MODULE;

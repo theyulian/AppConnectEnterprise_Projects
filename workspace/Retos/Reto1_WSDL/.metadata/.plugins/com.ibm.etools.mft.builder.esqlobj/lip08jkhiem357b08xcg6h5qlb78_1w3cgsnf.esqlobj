@@ -1,0 +1,21 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+    BEGIN
+		DECLARE realTime CHAR;
+		SET realTime = CAST(CURRENT_TIMESTAMP AS CHARACTER FORMAT 'yyyy-MM-dd HH:mm:ss.ssssss-ss:ss');
+		
+		
+		DECLARE NS1 NAMESPACE 'http://dolab.com/intf/V3.0';
+		SET OutputRoot.XMLNSC.NS1:esbXML.(XML.NamespaceDecl)xmlns:NS1 = 'http://dolab.com/intf/V3.0';
+		
+		
+		SET OutputRoot.XMLNSC.NS1:esbXML.Header.timestamp = realTime;
+		SET OutputRoot.XMLNSC.NS1:esbXML.Header.responseData.status = 'Exitoso';
+		SET OutputRoot.XMLNSC.NS1:esbXML.Body.country.name.common = InputRoot.JSON.Data.Item.name.common;
+		SET OutputRoot.XMLNSC.NS1:esbXML.Body.currencies.currencie.code = InputRoot.JSON.Data.Item.currencies;
+		SET OutputRoot.XMLNSC.NS1:esbXML.Body.Region = InputRoot.JSON.Data.Item.region;
+		SET OutputRoot.XMLNSC.NS1:esbXML.Body.subegion = InputRoot.JSON.Data.Item.subregion;
+		SET OutputRoot.XMLNSC.NS1:esbXML.Body.languages.language.name =InputRoot.JSON.Data.Item.languages;
+		RETURN TRUE;
+	END;
+
+

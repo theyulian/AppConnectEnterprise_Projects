@@ -1,0 +1,2 @@
+Error initializing event log file:
+BIP2119E: Error interno de IBM App Connect Enterprise: información de diagnóstico ''El proceso no tiene acceso al archivo porque est siendo utilizado por otro proceso.'', '32', ''\\?\C:\Users\003454661\IBM\ACET12\workspace\Retos\Reto1_MQ_Application\TEST_SERVER\log\integration_server.TEST_SERVER.events.txt'', '3221225472', '4', '1', '32', ''El proceso no tiene acceso al archivo porque est siendo utilizado por otro proceso.

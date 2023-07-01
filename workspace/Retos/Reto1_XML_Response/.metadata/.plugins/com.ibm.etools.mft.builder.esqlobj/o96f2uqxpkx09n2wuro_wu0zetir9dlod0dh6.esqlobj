@@ -1,0 +1,19 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		-- Validar que el mensaje de entrada es un mensaje XML válido
+		DECLARE hasXML INTEGER;
+		SET hasXML = CAST(InputRoot.BLOB.BLOB AS CHAR CCSID InputRoot.MQMD.CodedCharSetId);
+		
+		-- Extraer el código del país del mensaje de entrada
+		DECLARE countryCode CHARACTER;
+		SET countryCode = InputRoot.XMLNSC.countryCode;
+		
+		-- Construir la URL de la API dinámicamente
+		DECLARE apiUrl CHARACTER;
+		SET apiUrl = 'https://restcountries.com/v3.1/alpha/' || countryCode;
+		
+		-- Establecer la URL de la API en el nodo httprequest
+		SET OutputLocalEnvironment.Destination.HTTP.RequestLine = 'GET ' || apiUrl || ' HTTP/1.1';
+
+	END;
+

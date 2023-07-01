@@ -1,0 +1,10 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		SET OutputRoot.XMLNSC.NS1:NewOperationResponse.ID = InputRoot.JSON.Data.Item.name.common;
+		SET OutputRoot.XMLNSC.NS1:NewOperationResponse.rTime = CAST(CURRENT_TIMESTAMP AS CHARACTER FORMAT 'yyyy-MM-dd HH:mm:ss.ssssss-ss:ss');
+		SET OutputRoot.XMLNSC.NS1:NewOperationResponse.code = InputRoot.JSON.Data.Item.currencies;
+		SET OutputRoot.XMLNSC.NS1:NewOperationResponse.region = InputRoot.JSON.Data.Item.region;
+		SET OutputRoot.XMLNSC.NS1:NewOperationResponse.subregion = InputRoot.JSON.Data.Item.subregion;
+		SET OutputRoot.XMLNSC.NS1:NewOperationResponse.language = InputRoot.JSON.Data.Item.languages;
+		RETURN TRUE;
+	END;

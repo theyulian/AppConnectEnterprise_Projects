@@ -1,0 +1,11 @@
+
+
+CREATE COMPUTE MODULE Flow_Compute
+CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		SET OutputRoot.XMLNSC.NS1:NewOperationResponse.ID = countryID;
+		SET OutputRoot.XMLNSC.NS1:NewOperationResponse.rTime = CAST(CURRENT_TIMESTAMP AS CHARACTER FORMAT 'yyyy-MM-dd HH:mm:ss.ssssss-ss:ss');
+		
+	END;
+END MODULE;

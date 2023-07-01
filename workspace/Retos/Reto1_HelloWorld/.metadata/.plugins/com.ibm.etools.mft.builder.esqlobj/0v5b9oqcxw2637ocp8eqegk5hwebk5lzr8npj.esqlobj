@@ -1,0 +1,10 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		-- CALL CopyMessageHeaders();
+		-- CALL CopyEntireMessage();
+		DECLARE OutputRoot BLOB;
+		SET OutputRoot.BLOB = CAST('Hola mundo' AS BLOB);
+		CREATE LASTCHILD OF OutputRoot DOMAIN ('BLOB') NAME 'BlobMessage';
+		PROPAGATE TO TERMINAL 'outTerminal';
+		RETURN TRUE;
+	END;

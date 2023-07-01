@@ -1,0 +1,10 @@
+2023-04-27 18:31:56.867724Z: [Thread 248] (Msg 1/1) BIP1990I: El servidor de integración 'XML_SERVER' está empezando la inicialización; versión '12.0.7.0' (64 bits) 
+2023-04-27 18:31:56.889136Z: [Thread 248] (Msg 1/1) BIP9905I: Inicializando gestores de recursos. 
+2023-04-27 18:32:22.084986Z: [Thread 248] (Msg 1/1) BIP9906I: Leyendo recursos desplegados. 
+2023-04-27 18:32:22.133390Z: [Thread 248] (Msg 1/1) BIP9907I: Inicializando recursos desplegados. 
+2023-04-27 18:32:22.135054Z: [Thread 248] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 18:32:22.541752Z: [Thread 248] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 18:32:22.542024Z: [Thread 248] (Msg 1/1) BIP2269I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-27 18:32:29.802826Z: [Thread 13424] (Msg 1/1) BIP2866I: La administración de seguridad de IBM App Connect Enterprise es inactive. 
+2023-04-27 18:32:29.813238Z: [Thread 13424] (Msg 1/1) BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7601' para conexiones 'RestAdmin http'. 
+2023-04-27 18:32:29.815366Z: [Thread 248] (Msg 1/1) BIP1991I: El servidor de integración ha terminado la inicialización. 

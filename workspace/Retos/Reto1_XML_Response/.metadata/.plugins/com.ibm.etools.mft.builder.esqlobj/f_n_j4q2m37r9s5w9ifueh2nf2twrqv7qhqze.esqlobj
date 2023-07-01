@@ -1,0 +1,24 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		DECLARE MensajeSalida REFERENCE TO OutputRoot.XMLNSC.Mensaje;
+	    DECLARE Enlace CHAR;
+	    DECLARE CodigoPais CHAR;
+	    DECLARE Resultado BOOLEAN;
+	
+	    SET Enlace = 'https://restcountries.com/v3.1/alpha/';
+	    SET CodigoPais = InputRoot.XMLNSC.Mensaje.CodigoPais;
+	
+	    IF CodigoPais = 'COL' THEN
+	        SET Enlace = Enlace || CodigoPais || '?format=xml';
+	    ELSE
+	        SET Enlace = Enlace || CodigoPais;
+	    END IF;
+	
+	    SET MensajeSalida = InputRoot.XMLNSC.Mensaje;
+	    SET MensajeSalida.Enlace = Enlace;
+	    SET Resultado = TRUE;
+	
+	    RETURN Resultado;
+
+	END;
+

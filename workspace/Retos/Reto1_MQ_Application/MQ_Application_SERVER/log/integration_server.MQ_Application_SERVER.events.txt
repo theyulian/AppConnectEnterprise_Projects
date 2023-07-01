@@ -1,0 +1,128 @@
+2023-04-28 16:01:53.945340Z: [Thread 3500] (Msg 1/1) BIP1990I: El servidor de integración 'MQ_Application_SERVER' está empezando la inicialización; versión '12.0.7.0' (64 bits) 
+2023-04-28 16:01:53.964888Z: [Thread 3500] (Msg 1/1) BIP9905I: Inicializando gestores de recursos. 
+2023-04-28 16:02:24.049308Z: [Thread 3500] (Msg 1/1) BIP9906I: Leyendo recursos desplegados. 
+2023-04-28 16:02:24.100106Z: [Thread 3500] (Msg 1/1) BIP9907I: Inicializando recursos desplegados. 
+2023-04-28 16:02:24.102978Z: [Thread 3500] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:02:24.771706Z: [Thread 3500] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:02:24.772502Z: [Thread 3500] (Msg 1/1) BIP2269I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-28 16:02:25.786294Z: [Thread 15192] (Msg 1/1) BIP2648E: El mensaje se ha restituido a una cola; nodo de flujo de mensajes 'flow.MQ Input'. 
+2023-04-28 16:02:25.788702Z: [Thread 15192] (Msg 1/1) BIP2612E: No se ha podido abrir la cola de mensajes no entregados de IBM MQ: gestor de colas='MQDEV'; cola='DEV.DEAD.LETTER.QUEUE'; MQCC=2; MQRC=2035; 'flow.MQ Input'. 
+2023-04-28 16:02:25.788872Z: [Thread 15192] (Msg 1/2) BIP2628W: Se ha detectado una condición de excepción en el nodo 'flow.MQ Input'. 
+2023-04-28 16:02:25.788918Z: [Thread 15192] (Msg 2/2) BIP2612E: No se ha podido abrir la cola de mensajes no entregados de IBM MQ: gestor de colas='MQDEV'; cola='DEV.DEAD.LETTER.QUEUE'; MQCC=2; MQRC=2035; 'flow.MQ Input'. 
+2023-04-28 16:02:35.793548Z: [Thread 8312] (Msg 1/1) BIP2866I: La administración de seguridad de IBM App Connect Enterprise es inactive. 
+2023-04-28 16:02:35.816992Z: [Thread 8312] (Msg 1/1) BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7600' para conexiones 'RestAdmin http'. 
+2023-04-28 16:02:35.819276Z: [Thread 3500] (Msg 1/1) BIP1991I: El servidor de integración ha terminado la inicialización. 
+2023-04-28 16:09:04.062352Z: [Thread 16536] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-28 16:09:04.080187Z: [Thread 16536] (Msg 1/1) BIP9339W: Los valores definidos en la(s) política(s) 'Policy' del proyecto de política 'MQ' coinciden con los valores de política(s) existente(s). Los recursos desplegados que utilicen la(s) política(s) no se verán afectados por el redespliegue del proyecto de política. 
+2023-04-28 16:09:04.087560Z: [Thread 16536] (Msg 1/1) BIP9326I: El origen 'MQproject.generated.bar' se ha desplegado correctamente. 
+2023-04-28 16:09:04.088161Z: [Thread 16536] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-28 16:09:33.602088Z: [Thread 16976] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-28 16:09:33.655932Z: [Thread 16976] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:09:34.954984Z: [Thread 16976] (Msg 1/1) BIP2271I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-28 16:09:34.955076Z: [Thread 16976] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:09:34.995404Z: [Thread 16976] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:09:35.011824Z: [Thread 16976] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:09:35.012112Z: [Thread 16976] (Msg 1/1) BIP2269I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-28 16:09:35.012152Z: [Thread 16976] (Msg 1/1) BIP9332I: Application 'MQ_Application' se ha changed correctamente. 
+2023-04-28 16:09:35.012180Z: [Thread 16976] (Msg 1/1) BIP9326I: El origen 'MQ_Applicationproject.generated.bar' se ha desplegado correctamente. 
+2023-04-28 16:09:35.012528Z: [Thread 16976] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-28 16:10:04.067608Z: [Thread 24004] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-28 16:10:04.107123Z: [Thread 24004] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:10:05.254634Z: [Thread 24004] (Msg 1/1) BIP2271I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-28 16:10:05.254740Z: [Thread 24004] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:10:05.292160Z: [Thread 24004] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:10:05.312982Z: [Thread 24004] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:10:05.313351Z: [Thread 24004] (Msg 1/1) BIP2269I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-28 16:10:05.313399Z: [Thread 24004] (Msg 1/1) BIP9332I: Application 'MQ_Application' se ha changed correctamente. 
+2023-04-28 16:10:05.313431Z: [Thread 24004] (Msg 1/1) BIP9326I: El origen 'MQ_Applicationproject.generated.bar' se ha desplegado correctamente. 
+2023-04-28 16:10:05.313776Z: [Thread 24004] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-28 16:10:13.565503Z: [Thread 23312] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-28 16:10:13.614556Z: [Thread 23312] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:10:15.393586Z: [Thread 23312] (Msg 1/1) BIP2271I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-28 16:10:15.393710Z: [Thread 23312] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:10:15.424913Z: [Thread 23312] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:10:15.447484Z: [Thread 23312] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:10:15.448055Z: [Thread 23312] (Msg 1/1) BIP2269I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-28 16:10:15.448141Z: [Thread 23312] (Msg 1/1) BIP9332I: Application 'MQ_Application' se ha changed correctamente. 
+2023-04-28 16:10:15.448196Z: [Thread 23312] (Msg 1/1) BIP9326I: El origen 'MQ_Applicationproject.TestMode.bar' se ha desplegado correctamente. 
+2023-04-28 16:10:15.448741Z: [Thread 23312] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-28 16:12:49.651644Z: [Thread 7688] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-28 16:12:49.678844Z: [Thread 7688] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:12:50.947588Z: [Thread 7688] (Msg 1/1) BIP2271I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-28 16:12:50.947712Z: [Thread 7688] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:12:50.975248Z: [Thread 7688] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:12:50.994856Z: [Thread 7688] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:12:50.995304Z: [Thread 7688] (Msg 1/1) BIP2269I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-28 16:12:50.995364Z: [Thread 7688] (Msg 1/1) BIP9332I: Application 'MQ_Application' se ha changed correctamente. 
+2023-04-28 16:12:50.995524Z: [Thread 7688] (Msg 1/1) BIP9326I: El origen 'MQ_Applicationproject.generated.bar' se ha desplegado correctamente. 
+2023-04-28 16:12:50.995928Z: [Thread 7688] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-28 16:13:00.555182Z: [Thread 23112] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-28 16:13:00.568984Z: [Thread 23112] (Msg 1/1) BIP9339W: Los valores definidos en la(s) política(s) 'Policy' del proyecto de política 'MQ' coinciden con los valores de política(s) existente(s). Los recursos desplegados que utilicen la(s) política(s) no se verán afectados por el redespliegue del proyecto de política. 
+2023-04-28 16:13:00.573134Z: [Thread 23112] (Msg 1/1) BIP9326I: El origen 'MQproject.generated.bar' se ha desplegado correctamente. 
+2023-04-28 16:13:00.573534Z: [Thread 23112] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-28 16:13:15.692580Z: [Thread 12844] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-28 16:13:15.733774Z: [Thread 12844] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:13:17.213044Z: [Thread 12844] (Msg 1/1) BIP2271I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-28 16:13:17.213138Z: [Thread 12844] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:13:17.250096Z: [Thread 12844] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:13:17.268468Z: [Thread 12844] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:13:17.268782Z: [Thread 12844] (Msg 1/1) BIP2269I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-28 16:13:17.268832Z: [Thread 12844] (Msg 1/1) BIP9332I: Application 'MQ_Application' se ha changed correctamente. 
+2023-04-28 16:13:17.268874Z: [Thread 12844] (Msg 1/1) BIP9326I: El origen 'MQ_Applicationproject.generated.bar' se ha desplegado correctamente. 
+2023-04-28 16:13:17.269220Z: [Thread 12844] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-28 16:13:23.864124Z: [Thread 9712] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-28 16:13:23.886754Z: [Thread 9712] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:13:25.289920Z: [Thread 9712] (Msg 1/1) BIP2271I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-28 16:13:25.290030Z: [Thread 9712] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:13:25.313462Z: [Thread 9712] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:13:25.327842Z: [Thread 9712] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:13:25.328236Z: [Thread 9712] (Msg 1/1) BIP2269I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-28 16:13:25.328302Z: [Thread 9712] (Msg 1/1) BIP9332I: Application 'MQ_Application' se ha changed correctamente. 
+2023-04-28 16:13:25.328330Z: [Thread 9712] (Msg 1/1) BIP9326I: El origen 'MQ_Applicationproject.TestMode.bar' se ha desplegado correctamente. 
+2023-04-28 16:13:25.328726Z: [Thread 9712] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-28 16:16:21.187780Z: [Thread 14600] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-28 16:16:21.222402Z: [Thread 14600] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:16:23.027400Z: [Thread 14600] (Msg 1/1) BIP2271I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-28 16:16:23.027540Z: [Thread 14600] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:16:23.058762Z: [Thread 14600] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:16:23.075412Z: [Thread 14600] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:16:23.075726Z: [Thread 14600] (Msg 1/1) BIP2269I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-28 16:16:23.075782Z: [Thread 14600] (Msg 1/1) BIP9332I: Application 'MQ_Application' se ha changed correctamente. 
+2023-04-28 16:16:23.075812Z: [Thread 14600] (Msg 1/1) BIP9326I: El origen 'MQ_Applicationproject.generated.bar' se ha desplegado correctamente. 
+2023-04-28 16:16:23.076138Z: [Thread 14600] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-28 16:16:31.397890Z: [Thread 16536] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-28 16:16:31.413596Z: [Thread 16536] (Msg 1/1) BIP9339W: Los valores definidos en la(s) política(s) 'Policy' del proyecto de política 'MQ' coinciden con los valores de política(s) existente(s). Los recursos desplegados que utilicen la(s) política(s) no se verán afectados por el redespliegue del proyecto de política. 
+2023-04-28 16:16:31.425988Z: [Thread 16536] (Msg 1/1) BIP9326I: El origen 'MQproject.generated.bar' se ha desplegado correctamente. 
+2023-04-28 16:16:31.426648Z: [Thread 16536] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-28 16:16:39.714304Z: [Thread 16976] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-28 16:16:39.753584Z: [Thread 16976] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:16:41.220176Z: [Thread 16976] (Msg 1/1) BIP2271I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-28 16:16:41.220280Z: [Thread 16976] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:16:41.252224Z: [Thread 16976] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:16:41.268612Z: [Thread 16976] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:16:41.268932Z: [Thread 16976] (Msg 1/1) BIP2269I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-28 16:16:41.268988Z: [Thread 16976] (Msg 1/1) BIP9332I: Application 'MQ_Application' se ha changed correctamente. 
+2023-04-28 16:16:41.269032Z: [Thread 16976] (Msg 1/1) BIP9326I: El origen 'MQ_Applicationproject.generated.bar' se ha desplegado correctamente. 
+2023-04-28 16:16:41.269476Z: [Thread 16976] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-28 16:16:49.439588Z: [Thread 24004] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-28 16:16:49.454956Z: [Thread 24004] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:16:51.342356Z: [Thread 24004] (Msg 1/1) BIP2271I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-28 16:16:51.342496Z: [Thread 24004] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:16:51.376736Z: [Thread 24004] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:16:51.402460Z: [Thread 24004] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:16:51.402952Z: [Thread 24004] (Msg 1/1) BIP2269I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-28 16:16:51.403032Z: [Thread 24004] (Msg 1/1) BIP9332I: Application 'MQ_Application' se ha changed correctamente. 
+2023-04-28 16:16:51.403084Z: [Thread 24004] (Msg 1/1) BIP9326I: El origen 'MQ_Applicationproject.TestMode.bar' se ha desplegado correctamente. 
+2023-04-28 16:16:51.403588Z: [Thread 24004] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-28 16:17:48.807856Z: [Thread 23312] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-28 16:17:48.831820Z: [Thread 23312] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:17:49.955064Z: [Thread 23312] (Msg 1/1) BIP2271I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-28 16:17:49.955164Z: [Thread 23312] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:17:49.984304Z: [Thread 23312] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:17:49.997520Z: [Thread 23312] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'MQ_Application' de tipo 'Application'. 
+2023-04-28 16:17:49.997908Z: [Thread 23312] (Msg 1/1) BIP2269I: El recurso desplegado 'flow' (uuid='flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-28 16:17:49.997984Z: [Thread 23312] (Msg 1/1) BIP9332I: Application 'MQ_Application' se ha changed correctamente. 
+2023-04-28 16:17:49.998056Z: [Thread 23312] (Msg 1/1) BIP9326I: El origen 'MQ_Applicationproject.TestMode.bar' se ha desplegado correctamente. 
+2023-04-28 16:17:49.998552Z: [Thread 23312] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-28 16:22:35.884144Z: [Thread 20908] (Msg 1/2) BIP2628W: Se ha detectado una condición de excepción en el nodo 'flow.MQ Input'. 
+2023-04-28 16:22:35.884244Z: [Thread 20908] (Msg 2/2) BIP2677E: No se ha podido realizar una conexión de cliente con el gestor de colas 'MQDEV' utilizando el nombre de host 'localhost' en el puerto '1414': MQCC=2; MQRC=2538. 

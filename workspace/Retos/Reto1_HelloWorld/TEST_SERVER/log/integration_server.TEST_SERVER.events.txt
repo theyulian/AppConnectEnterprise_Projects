@@ -1,0 +1,9 @@
+2023-04-27 17:21:36.829668Z: [Thread 20304] (Msg 1/1) BIP1990I: El servidor de integración 'TEST_SERVER' está empezando la inicialización; versión '12.0.7.0' (64 bits) 
+2023-04-27 17:21:36.865308Z: [Thread 20304] (Msg 1/1) BIP9905I: Inicializando gestores de recursos. 
+2023-04-27 17:22:15.404370Z: [Thread 20304] (Msg 1/1) BIP9906I: Leyendo recursos desplegados. 
+2023-04-27 17:22:15.449561Z: [Thread 20304] (Msg 1/1) BIP9907I: Inicializando recursos desplegados. 
+2023-04-27 17:22:15.453833Z: [Thread 20304] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'Reto1_HelloWorld' de tipo 'Application'. 
+2023-04-27 17:22:15.976882Z: [Thread 20304] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'Reto1_HelloWorld' de tipo 'Application'. 
+2023-04-27 17:22:26.800028Z: [Thread 14460] (Msg 1/1) BIP2866I: La administración de seguridad de IBM App Connect Enterprise es inactive. 
+2023-04-27 17:22:26.817448Z: [Thread 14460] (Msg 1/1) BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7600' para conexiones 'RestAdmin http'. 
+2023-04-27 17:22:26.820032Z: [Thread 20304] (Msg 1/1) BIP1991I: El servidor de integración ha terminado la inicialización. 

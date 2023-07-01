@@ -1,0 +1,114 @@
+
+==============================================
+
+!Thu Apr 27 15:40:32 COT 2023
+
+Processing file XML_Application\Flow.msgflow.
+Successfully added file XML_Application\Flow.msgflow to BAR file.
+
+==============================================
+
+!Thu Apr 27 15:40:32 COT 2023
+
+Processing file XML_Application\Flow_Compute.esql.
+Dependent ESQL file Flow_Compute1.esql is added to the BAR file.
+
+Dependent ESQL file Flow_Compute3.esql is added to the BAR file.
+
+Successfully added file XML_Application\Flow_Compute.esql to BAR file.
+
+==============================================
+
+!Thu Apr 27 15:40:32 COT 2023
+
+Processing file XML_Application\Flow_Compute1.esql.
+Dependent ESQL file Flow_Compute.esql is added to the BAR file.
+
+Dependent ESQL file Flow_Compute3.esql is added to the BAR file.
+
+Successfully added file XML_Application\Flow_Compute1.esql to BAR file.
+
+==============================================
+
+!Thu Apr 27 15:40:32 COT 2023
+
+Processing file XML_Application\Flow_Compute2.esql.
+Dependent ESQL file Flow_Compute3.esql is added to the BAR file.
+
+Successfully added file XML_Application\Flow_Compute2.esql to BAR file.
+
+==============================================
+
+!Thu Apr 27 15:40:32 COT 2023
+
+Processing file XML_Application\Flow_Compute3.esql.
+Successfully added file XML_Application\Flow_Compute3.esql to BAR file.
+
+==============================================
+
+!Thu Apr 27 15:40:32 COT 2023
+
+Processing file XML_Application\IBMdefined\org\w3\www\xml\_1998\namespace\xml.xsd.
+Successfully added file XML_Application\IBMdefined\org\w3\www\xml\_1998\namespace\xml.xsd to BAR file.
+
+==============================================
+
+!Thu Apr 27 15:40:32 COT 2023
+
+Processing file XML_Application\IBMdefined\org\xmlsoap\schemas\soap\envelope\soapenv11.xsd.
+Successfully added file XML_Application\IBMdefined\org\xmlsoap\schemas\soap\envelope\soapenv11.xsd to BAR file.
+
+==============================================
+
+!Thu Apr 27 15:40:32 COT 2023
+
+Processing file XML_Application\IBMdefined\soap.xsd.
+Successfully added file XML_Application\IBMdefined\soap.xsd to BAR file.
+
+==============================================
+
+!Thu Apr 27 15:40:32 COT 2023
+
+Processing file XML_Application\WSDLFile.wsdl.
+Successfully added file XML_Application\WSDLFile.wsdl to BAR file.
+
+==============================================
+
+!Thu Apr 27 15:40:32 COT 2023
+
+Processing file XML_Application\WSDLFile.xsd.
+Successfully added file XML_Application\WSDLFile.xsd to BAR file.
+
+==============================================
+
+!Thu Apr 27 15:40:32 COT 2023
+
+Processing file XML_Application\WSDLFile_InlineSchema1.xsd.
+Successfully added file XML_Application\WSDLFile_InlineSchema1.xsd to BAR file.
+
+==============================================
+
+!Thu Apr 27 15:40:32 COT 2023
+
+Processing file XML_Application\application.descriptor.
+Successfully added file XML_Application\application.descriptor to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file XML_Application\application.descriptor to BAR file.
+
+==============================================
+
+!Thu Apr 27 15:40:32 COT 2023
+
+Processing file XML_Application\application.descriptor.
+Successfully added file XML_Application\application.descriptor to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file XML_Application\application.descriptor to BAR file.
+
+==============================================
+
+!Thu Apr 27 15:40:32 COT 2023
+
+Processing file XML_Application\gen\WSDLFile_Flow.subflow.
+Successfully added file XML_Application\gen\WSDLFile_Flow.subflow to BAR file.

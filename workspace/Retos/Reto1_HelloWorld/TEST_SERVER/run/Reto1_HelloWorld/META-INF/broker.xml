@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Users\003454661\IBM\ACET12\workspace\Retos\Reto1_HelloWorld\GeneratedBarFiles\Reto1_HelloWorldproject.generated.bar" deployTimestamp="2023-04-27 16:19:08">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="Hello_World" type="subflow" deployBarfile="C:\Users\003454661\IBM\ACET12\workspace\Retos\Reto1_HelloWorld\GeneratedBarFiles\Reto1_HelloWorldproject.generated.bar" deployTimestamp="2023-04-27 16:19:08">
+    <ConfigurableProperty uri="Hello_World#HTTP Input.URLSpecifier" override="/helloworld">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Hello_World#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Hello_World#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Hello_World#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Hello_World#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Hello_World#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Hello_World#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Hello_World#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Hello_World#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

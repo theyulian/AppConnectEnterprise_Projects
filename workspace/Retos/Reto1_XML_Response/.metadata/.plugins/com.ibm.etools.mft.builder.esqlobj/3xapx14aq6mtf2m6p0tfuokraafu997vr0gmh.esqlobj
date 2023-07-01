@@ -1,0 +1,21 @@
+CREATE COMPUTE MODULE Flow_Compute1
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+	    DECLARE MensajeSalida REFERENCE TO OutputRoot.XMLNSC.Mensaje;
+	    DECLARE CodigoPais CHAR;
+	    DECLARE Resultado BOOLEAN;
+	
+	    SET MensajeSalida = InputRoot.XMLNSC.Mensaje;
+	    SET CodigoPais = MensajeSalida.CodigoPais;
+	
+	    IF CodigoPais = 'COL' THEN
+	        SET MensajeSalida.DatosPais = CAST(HttpResponse.Content AS XMLNSC);
+	    ELSE
+	        SET MensajeSalida.DatosPais = '<Pais>No soportado</Pais>';
+	    END IF;
+	
+	    SET Resultado = TRUE;
+	
+	    RETURN Resultado;
+	END;
+END MODULE;

@@ -1,0 +1,13 @@
+CREATE COMPUTE MODULE flow_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+        SET OutputRoot.MQSTR = 'Hola';
+
+        -- Envía el mensaje de salida al mq output
+        SET OutputRoot.Properties = InputRoot.Properties;
+
+        RETURN TRUE;
+		
+	END;
+
+END MODULE;

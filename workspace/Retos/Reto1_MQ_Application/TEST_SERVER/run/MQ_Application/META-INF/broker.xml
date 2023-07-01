@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Users\003454661\IBM\ACET12\workspace\MQ_Application\GeneratedBarFiles\MQ_Applicationproject.generated.bar" deployTimestamp="2023-04-04 02:11:21">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="flow" deployBarfile="C:\Users\003454661\IBM\ACET12\workspace\MQ_Application\GeneratedBarFiles\MQ_Applicationproject.generated.bar" deployTimestamp="2023-04-04 02:11:21">
+    <ConfigurableProperty uri="flow#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#Compute.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.componentLevel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.policyUrl" override="{MQ}:Policy">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.queueName" override="DEV.QUEUE.1">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.resetBrowseTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.serializationToken">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.topicProperty">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.destinationQueueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.policyUrl" override="{MQ}:Policy">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.queueName" override="DEV.QUEUE.2">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.replyToQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#MQ Output.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="flow#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

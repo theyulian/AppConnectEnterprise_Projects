@@ -1,0 +1,69 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "StockSystem_Example",
+    "version": "1.0.0",
+    "description": "Stock level available for product in store location"
+  },
+  "servers": [
+    {
+      "url": "/stocksystem_example/v1"
+    }
+  ],
+  "components": {
+    "schemas": {
+      "ProductStock": {
+        "type": "object",
+        "properties": {
+          "StoreID": {
+            "type": "string"
+          },
+          "ProductID": {
+            "type": "string"
+          },
+          "QuantityAvailable": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  },
+  "paths": {
+    "/products/{Product_ID}/stores/{Store_ID}": {
+      "description": "Get the stock level for a product in a store",
+      "get": {
+        "operationId": "getStockLevelInStore",
+        "parameters": [
+          {
+            "name": "Product_ID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Store_ID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The operation was successful",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductStock"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

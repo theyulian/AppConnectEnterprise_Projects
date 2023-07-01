@@ -1,0 +1,10 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		SET OutputRoot.MQMD.Format = MQFMT_STRING;
+		SET OutputRoot.MQMD.CodedCharSetId = 1208;
+		SET OutputRoot.BLOB.BLOB = CAST('hola' AS BLOB CCSID InputRoot.MQMD.CodedCharSetId);
+
+        RETURN TRUE;
+		
+	END;
+

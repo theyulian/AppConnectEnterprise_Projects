@@ -1,0 +1,11 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+        SET OutputRoot.BLOB.BLOB = 'Hola';
+
+        -- Envía el mensaje de salida al mq output
+        SET OutputRoot.Properties = InputRoot.Properties;
+
+        RETURN TRUE;
+		
+	END;
+

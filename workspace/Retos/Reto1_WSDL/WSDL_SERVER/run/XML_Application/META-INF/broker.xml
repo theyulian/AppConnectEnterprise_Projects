@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Users\003454661\IBM\ACET12\workspace\Retos\Reto1_WSDL\TestModeBarFiles\XML_Applicationproject.TestMode.bar" deployTimestamp="2023-04-27 20:40:32">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="Flow" deployBarfile="C:\Users\003454661\IBM\ACET12\workspace\Retos\Reto1_WSDL\TestModeBarFiles\XML_Applicationproject.TestMode.bar" deployTimestamp="2023-04-27 20:40:32">
+    <ConfigurableProperty uri="Flow#Compute3.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#Compute3.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#Compute3.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.allowQueryWSDL" override="yes">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.backoutDestination">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.backoutThreshold">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.componentLevel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.connectionFactoryName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.initialContextFactory">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.locationJndiBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.maxClientWaitTime">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.messageCorrelationIDSelector">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.messageDeliveryModeSelector">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.messageIDSelector">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.messagePrioritySelector">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.messageRedeliveredSelector">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.policySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.policySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.propertySelector">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.sendProcessingFaultsToFailure">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.targetService">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.timeStampSelector">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.urlSelector" override="/consultapais">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.validateFailureAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Reply.allowMTOM">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Reply.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#SOAP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="Flow#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+  <CompiledMessageFlow name="gen.WSDLFile_Flow" type="subflow" deployBarfile="C:\Users\003454661\IBM\ACET12\workspace\Retos\Reto1_WSDL\TestModeBarFiles\XML_Applicationproject.TestMode.bar" deployTimestamp="2023-04-27 20:40:32">
+  </CompiledMessageFlow>
+</Broker>

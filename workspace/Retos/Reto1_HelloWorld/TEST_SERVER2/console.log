@@ -1,0 +1,12 @@
+2023-04-27 11:42:20.580062: BIP1990I: El servidor de integración 'TEST_SERVER2' está empezando la inicialización; versión '12.0.7.0' (64 bits) 
+2023-04-27 11:42:20.632210: BIP9905I: Inicializando gestores de recursos. 
+"C:\Program" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+Listening for transport dt_socket at address: 9998
+2023-04-27 11:42:35.467764: BIP9906I: Leyendo recursos desplegados. 
+2023-04-27 11:42:37.867028: BIP2866I: La administración de seguridad de IBM App Connect Enterprise es inactive. 
+2023-04-27 11:42:37.904280: BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7602' para conexiones 'RestAdmin http'. 
+2023-04-27 11:42:37.916636: BIP1991I: El servidor de integración ha terminado la inicialización. 
+2023-04-27 11:43:05.843529: BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 11:43:05.843591: BIP2153I: A punto de 'deleteAll' un servidor de integración. 
+2023-04-27 11:43:05.870529: BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 

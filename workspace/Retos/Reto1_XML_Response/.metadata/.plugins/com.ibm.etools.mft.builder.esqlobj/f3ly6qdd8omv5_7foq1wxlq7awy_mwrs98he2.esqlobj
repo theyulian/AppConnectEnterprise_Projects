@@ -1,0 +1,16 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		    -- Establece la URL base
+	    DECLARE url_base CHAR 'https://restcountries.com/v3.1/alpha/';
+	    -- Extrae el código de país del mensaje de entrada
+	    DECLARE countryCode CHAR;
+	    SET countryCode = InputRoot.JSON.Data.countryCode;
+	    -- Agrega el código de país a la URL base
+	    DECLARE modifiedURL CHAR;
+	    SET modifiedURL = url_base || countryCode;
+	    -- Establece la URL modificada en el LocalEnvironment
+	    SET OutputLocalEnvironment.Destination.HTTP.RequestURL = modifiedURL;
+	    RETURN TRUE;
+
+	END;
+

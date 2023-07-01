@@ -1,0 +1,114 @@
+2023-04-27 18:32:59.105712Z: [Thread 18548] (Msg 1/1) BIP1990I: El servidor de integración 'WSDL_SERVER' está empezando la inicialización; versión '12.0.7.0' (64 bits) 
+2023-04-27 18:32:59.120160Z: [Thread 18548] (Msg 1/1) BIP9905I: Inicializando gestores de recursos. 
+2023-04-27 18:33:04.730253Z: [Thread 18548] (Msg 1/1) BIP9906I: Leyendo recursos desplegados. 
+2023-04-27 18:33:05.285322Z: [Thread 20708] (Msg 1/1) BIP2866I: La administración de seguridad de IBM App Connect Enterprise es inactive. 
+2023-04-27 18:33:05.296936Z: [Thread 20708] (Msg 1/1) BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7600' para conexiones 'RestAdmin http'. 
+2023-04-27 18:33:05.301687Z: [Thread 18548] (Msg 1/1) BIP1991I: El servidor de integración ha terminado la inicialización. 
+2023-04-27 18:33:15.468379Z: [Thread 8332] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 18:33:15.479397Z: [Thread 8332] (Msg 1/1) BIP9332I: PolicyProject 'Policy' se ha created correctamente. 
+2023-04-27 18:33:15.479593Z: [Thread 8332] (Msg 1/1) BIP9326I: El origen 'Policyproject.generated.bar' se ha desplegado correctamente. 
+2023-04-27 18:33:15.479980Z: [Thread 8332] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-27 18:33:24.976750Z: [Thread 13116] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 18:33:25.008764Z: [Thread 13116] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 18:33:25.195966Z: [Thread 13116] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 18:33:25.196278Z: [Thread 13116] (Msg 1/1) BIP2269I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-27 18:33:25.196324Z: [Thread 13116] (Msg 1/1) BIP9332I: Application 'XML_Application' se ha created correctamente. 
+2023-04-27 18:33:25.196368Z: [Thread 13116] (Msg 1/1) BIP9326I: El origen 'XML_Applicationproject.generated.bar' se ha desplegado correctamente. 
+2023-04-27 18:33:25.196732Z: [Thread 13116] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-27 19:36:11.433750Z: [Thread 3024] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 19:36:11.669558Z: [Thread 3024] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 19:36:17.100248Z: [Thread 3024] (Msg 1/1) BIP2271I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-27 19:36:17.100392Z: [Thread 3024] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 19:36:17.170718Z: [Thread 3024] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 19:36:17.553844Z: [Thread 3024] (Msg 1/1) BIP9342I: Se ha creado el archivo de esquema 'XMLNSC' compilado 'XML_Application/$mqsiApplication.bir'. 
+2023-04-27 19:36:18.158684Z: [Thread 3024] (Msg 1/1) BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7800' para conexiones 'http'. 
+2023-04-27 19:36:18.170196Z: [Thread 3024] (Msg 1/1) BIP1996I: Escuchando por el URL HTTP '/consultapais'. 
+2023-04-27 19:36:18.174622Z: [Thread 3024] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 19:36:18.175280Z: [Thread 3024] (Msg 1/1) BIP2269I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-27 19:36:18.175490Z: [Thread 3024] (Msg 1/1) BIP9332I: Application 'XML_Application' se ha changed correctamente. 
+2023-04-27 19:36:18.175590Z: [Thread 3024] (Msg 1/1) BIP9326I: El origen 'XML_Applicationproject.generated.bar' se ha desplegado correctamente. 
+2023-04-27 19:36:18.176466Z: [Thread 3024] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-27 20:15:07.858384Z: [Thread 18888] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 20:15:08.099394Z: [Thread 18888] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:15:11.571880Z: [Thread 18888] (Msg 1/1) BIP2271I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-27 20:15:11.571961Z: [Thread 18888] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:15:11.587913Z: [Thread 18888] (Msg 1/1) BIP3133I: El escucha HTTP ha dejado de escuchar en el puerto '7800' para conexiones 'http'. 
+2023-04-27 20:15:11.663253Z: [Thread 18888] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:15:11.777024Z: [Thread 18888] (Msg 1/1) BIP9342I: Se ha creado el archivo de esquema 'XMLNSC' compilado 'XML_Application/$mqsiApplication.bir'. 
+2023-04-27 20:15:12.028551Z: [Thread 18888] (Msg 1/1) BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7800' para conexiones 'http'. 
+2023-04-27 20:15:12.028791Z: [Thread 18888] (Msg 1/1) BIP1996I: Escuchando por el URL HTTP '/consultapais'. 
+2023-04-27 20:15:12.030028Z: [Thread 18888] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:15:12.030953Z: [Thread 18888] (Msg 1/1) BIP2269I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-27 20:15:12.031129Z: [Thread 18888] (Msg 1/1) BIP9332I: Application 'XML_Application' se ha changed correctamente. 
+2023-04-27 20:15:12.031258Z: [Thread 18888] (Msg 1/1) BIP9326I: El origen 'XML_Applicationproject.generated.bar' se ha desplegado correctamente. 
+2023-04-27 20:15:12.032451Z: [Thread 18888] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-27 20:18:19.299888Z: [Thread 17188] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 20:18:19.491432Z: [Thread 17188] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:18:21.519482Z: [Thread 17188] (Msg 1/1) BIP2271I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-27 20:18:21.519586Z: [Thread 17188] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:18:21.550026Z: [Thread 17188] (Msg 1/1) BIP3133I: El escucha HTTP ha dejado de escuchar en el puerto '7800' para conexiones 'http'. 
+2023-04-27 20:18:21.633456Z: [Thread 17188] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:18:21.742706Z: [Thread 17188] (Msg 1/1) BIP9342I: Se ha creado el archivo de esquema 'XMLNSC' compilado 'XML_Application/$mqsiApplication.bir'. 
+2023-04-27 20:18:21.926594Z: [Thread 17188] (Msg 1/1) BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7800' para conexiones 'http'. 
+2023-04-27 20:18:21.926774Z: [Thread 17188] (Msg 1/1) BIP1996I: Escuchando por el URL HTTP '/consultapais'. 
+2023-04-27 20:18:21.927644Z: [Thread 17188] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:18:21.928062Z: [Thread 17188] (Msg 1/1) BIP2269I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-27 20:18:21.928144Z: [Thread 17188] (Msg 1/1) BIP9332I: Application 'XML_Application' se ha changed correctamente. 
+2023-04-27 20:18:21.928208Z: [Thread 17188] (Msg 1/1) BIP9326I: El origen 'XML_Applicationproject.TestMode.bar' se ha desplegado correctamente. 
+2023-04-27 20:18:21.929062Z: [Thread 17188] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-27 20:21:15.633925Z: [Thread 3668] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 20:21:15.820261Z: [Thread 3668] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:21:17.392598Z: [Thread 3668] (Msg 1/1) BIP2271I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-27 20:21:17.392708Z: [Thread 3668] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:21:17.407094Z: [Thread 3668] (Msg 1/1) BIP3133I: El escucha HTTP ha dejado de escuchar en el puerto '7800' para conexiones 'http'. 
+2023-04-27 20:21:17.463072Z: [Thread 3668] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:21:17.542662Z: [Thread 3668] (Msg 1/1) BIP9342I: Se ha creado el archivo de esquema 'XMLNSC' compilado 'XML_Application/$mqsiApplication.bir'. 
+2023-04-27 20:21:17.750684Z: [Thread 3668] (Msg 1/1) BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7800' para conexiones 'http'. 
+2023-04-27 20:21:17.750834Z: [Thread 3668] (Msg 1/1) BIP1996I: Escuchando por el URL HTTP '/consultapais'. 
+2023-04-27 20:21:17.751650Z: [Thread 3668] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:21:17.752026Z: [Thread 3668] (Msg 1/1) BIP2269I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-27 20:21:17.752078Z: [Thread 3668] (Msg 1/1) BIP9332I: Application 'XML_Application' se ha changed correctamente. 
+2023-04-27 20:21:17.752116Z: [Thread 3668] (Msg 1/1) BIP9326I: El origen 'XML_Applicationproject.generated.bar' se ha desplegado correctamente. 
+2023-04-27 20:21:17.752520Z: [Thread 3668] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-27 20:21:32.855300Z: [Thread 8332] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 20:21:33.084514Z: [Thread 8332] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:21:34.569716Z: [Thread 8332] (Msg 1/1) BIP2271I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-27 20:21:34.569812Z: [Thread 8332] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:21:34.586236Z: [Thread 8332] (Msg 1/1) BIP3133I: El escucha HTTP ha dejado de escuchar en el puerto '7800' para conexiones 'http'. 
+2023-04-27 20:21:34.642968Z: [Thread 8332] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:21:34.710912Z: [Thread 8332] (Msg 1/1) BIP9342I: Se ha creado el archivo de esquema 'XMLNSC' compilado 'XML_Application/$mqsiApplication.bir'. 
+2023-04-27 20:21:34.897024Z: [Thread 8332] (Msg 1/1) BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7800' para conexiones 'http'. 
+2023-04-27 20:21:34.897236Z: [Thread 8332] (Msg 1/1) BIP1996I: Escuchando por el URL HTTP '/consultapais'. 
+2023-04-27 20:21:34.898528Z: [Thread 8332] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:21:34.899036Z: [Thread 8332] (Msg 1/1) BIP2269I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-27 20:21:34.899116Z: [Thread 8332] (Msg 1/1) BIP9332I: Application 'XML_Application' se ha changed correctamente. 
+2023-04-27 20:21:34.899172Z: [Thread 8332] (Msg 1/1) BIP9326I: El origen 'XML_Applicationproject.TestMode.bar' se ha desplegado correctamente. 
+2023-04-27 20:21:34.899780Z: [Thread 8332] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-27 20:36:58.094272Z: [Thread 8332] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 20:36:58.305832Z: [Thread 8332] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:37:00.977507Z: [Thread 8332] (Msg 1/1) BIP2271I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-27 20:37:00.977598Z: [Thread 8332] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:37:00.992319Z: [Thread 8332] (Msg 1/1) BIP3133I: El escucha HTTP ha dejado de escuchar en el puerto '7800' para conexiones 'http'. 
+2023-04-27 20:37:01.055078Z: [Thread 8332] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:37:01.123442Z: [Thread 8332] (Msg 1/1) BIP9342I: Se ha creado el archivo de esquema 'XMLNSC' compilado 'XML_Application/$mqsiApplication.bir'. 
+2023-04-27 20:37:01.293174Z: [Thread 8332] (Msg 1/1) BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7800' para conexiones 'http'. 
+2023-04-27 20:37:01.293301Z: [Thread 8332] (Msg 1/1) BIP1996I: Escuchando por el URL HTTP '/consultapais'. 
+2023-04-27 20:37:01.293908Z: [Thread 8332] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:37:01.294205Z: [Thread 8332] (Msg 1/1) BIP2269I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-27 20:37:01.294244Z: [Thread 8332] (Msg 1/1) BIP9332I: Application 'XML_Application' se ha changed correctamente. 
+2023-04-27 20:37:01.294278Z: [Thread 8332] (Msg 1/1) BIP9326I: El origen 'XML_Applicationproject.TestMode.bar' se ha desplegado correctamente. 
+2023-04-27 20:37:01.294632Z: [Thread 8332] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 
+2023-04-27 20:40:32.947498Z: [Thread 8332] (Msg 1/1) BIP2152I: Se ha recibido el mensaje de configuración. 
+2023-04-27 20:40:33.151822Z: [Thread 8332] (Msg 1/1) BIP2155I: A punto de 'Stop' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:40:36.689932Z: [Thread 8332] (Msg 1/1) BIP2271I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha detenido satisfactoriamente. 
+2023-04-27 20:40:36.690056Z: [Thread 8332] (Msg 1/1) BIP2155I: A punto de 'TearDown' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:40:36.720176Z: [Thread 8332] (Msg 1/1) BIP3133I: El escucha HTTP ha dejado de escuchar en el puerto '7800' para conexiones 'http'. 
+2023-04-27 20:40:36.772660Z: [Thread 8332] (Msg 1/1) BIP2155I: A punto de 'Initialize' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:40:36.830364Z: [Thread 8332] (Msg 1/1) BIP9342I: Se ha creado el archivo de esquema 'XMLNSC' compilado 'XML_Application/$mqsiApplication.bir'. 
+2023-04-27 20:40:37.002268Z: [Thread 8332] (Msg 1/1) BIP3132I: El escucha HTTP ha empezado a escuchar en el puerto '7800' para conexiones 'http'. 
+2023-04-27 20:40:37.002400Z: [Thread 8332] (Msg 1/1) BIP1996I: Escuchando por el URL HTTP '/consultapais'. 
+2023-04-27 20:40:37.003160Z: [Thread 8332] (Msg 1/1) BIP2155I: A punto de 'Start' el recurso desplegado 'XML_Application' de tipo 'Application'. 
+2023-04-27 20:40:37.003524Z: [Thread 8332] (Msg 1/1) BIP2269I: El recurso desplegado 'Flow' (uuid='Flow',tipo='MessageFlow') se ha iniciado satisfactoriamente. 
+2023-04-27 20:40:37.003696Z: [Thread 8332] (Msg 1/1) BIP9332I: Application 'XML_Application' se ha changed correctamente. 
+2023-04-27 20:40:37.003744Z: [Thread 8332] (Msg 1/1) BIP9326I: El origen 'XML_Applicationproject.TestMode.bar' se ha desplegado correctamente. 
+2023-04-27 20:40:37.004124Z: [Thread 8332] (Msg 1/1) BIP2154I: El servidor de integración ha finalizado con el mensaje de configuración. 

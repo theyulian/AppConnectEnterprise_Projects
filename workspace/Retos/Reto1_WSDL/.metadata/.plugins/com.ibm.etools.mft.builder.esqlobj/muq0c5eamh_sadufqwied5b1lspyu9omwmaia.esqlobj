@@ -1,0 +1,12 @@
+CREATE PROCEDURE overrideDefaultHTTPRequestURL( IN newUrl char) 
+    BEGIN
+  /*******************************************************************************
+  * A procedure that changes the URL to which the HTTPRequest node sends the request.
+  * 
+  * IN LocalEnvironment: the LocalEnvironment to be modified. 
+  * IN queue: the URL to which to send the request.
+  *
+  *******************************************************************************/
+          SET OutputLocalEnvironment = InputLocalEnvironment;
+          SET OutputLocalEnvironment.Destination.HTTP.RequestURL = newUrl;
+    END;

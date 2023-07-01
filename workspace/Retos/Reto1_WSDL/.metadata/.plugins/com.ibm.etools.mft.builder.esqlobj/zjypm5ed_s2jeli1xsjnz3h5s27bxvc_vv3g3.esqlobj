@@ -1,0 +1,19 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		
+		DECLARE countryID CHAR InputRoot.XMLNSC.NS1:NewOperation.countryID;
+		SET Environment.countryID = countryID; 
+		
+		DECLARE urlBase CHAR;
+		SET urlBase = 'https://restcountries.com/v3.1/alpha/'||countryID;
+		CALL overrideDefaultHTTPRequestURL(urlBase);
+		
+	END;
+
+CREATE PROCEDURE overrideDefaultHTTPRequestURL( IN newUrl char) 
+	BEGIN
+
+  		SET OutputLocalEnvironment = '{"countryID":"'||countryID||'"}';
+  		SET OutputLocalEnvironment.Destination.HTTP.RequestURL = newUrl;
+  		
+	END;

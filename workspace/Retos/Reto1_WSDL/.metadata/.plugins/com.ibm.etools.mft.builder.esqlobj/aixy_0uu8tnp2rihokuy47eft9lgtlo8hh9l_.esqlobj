@@ -1,0 +1,23 @@
+CREATE COMPUTE MODULE Flow_Compute3
+CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		DECLARE countryID CHAR InputRoot.XMLNSC.NS1:NewOperation.ID;
+		SET OutputRoot.XMLNSC.NS1:NewOperationResponse.ID = InputRoot.XMLNSC.NS1:NewOperation.ID;
+		SET OutputRoot.XMLNSC.NS1:NewOperationResponse.rTime = CAST(CURRENT_TIMESTAMP AS CHARACTER FORMAT 'yyyy-MM-dd HH:mm:ss.ssssss-ss:ss');
+		SET Environment.countryID = countryID; 
+		
+		DECLARE urlBase CHAR;
+		SET urlBase = 'https://restcountries.com/v3.1/alpha/'||countryID;
+		CALL overrideDefaultHTTPRequestURL(urlBase);
+		
+	END;
+
+CREATE PROCEDURE overrideDefaultHTTPRequestURL( IN newUrl char) 
+	BEGIN
+
+  		SET OutputLocalEnvironment = InputLocalEnvironment;
+  		SET OutputLocalEnvironment.Destination.HTTP.RequestURL = newUrl;
+  		
+	END;
+END MODULE;

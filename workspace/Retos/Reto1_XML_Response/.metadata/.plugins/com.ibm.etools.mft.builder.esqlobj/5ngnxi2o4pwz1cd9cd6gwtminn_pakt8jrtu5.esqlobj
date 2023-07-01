@@ -1,0 +1,19 @@
+CREATE COMPUTE MODULE Flow_Compute1
+	DECLARE namespace XMLNSC 'http://www.ibm.com/xmlns/prod/2009/xmlns/c';
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		
+		-- Validar que la respuesta de la API es un mensaje JSON válido
+		DECLARE hasJSON INTEGER;
+		SET hasJSON = InputRoot.JSONNSC.*;
+		
+		-- Transformar la respuesta de la API de JSON a XML
+		DECLARE xmlResult XMLNSC;
+		SET xmlResult = (SELECT XMLSERIALIZE(CONTENT jsonResult AS CLOB) FROM JSON2XML(DATASET(InputRoot.JSONNSC.*, 'root'), 'root', 'XMLNSC') AS j(jsonResult));
+		
+		-- Establecer la respuesta transformada en el mensaje de salida
+		SET OutputRoot.XMLNSC = xmlResult;
+		RETURN TRUE;
+	END;
+END MODULE;

@@ -1,0 +1,52 @@
+
+==============================================
+
+!Thu Apr 27 10:45:54 COT 2023
+
+Processing file XML_Application\Flow.msgflow.
+Successfully added file XML_Application\Flow.msgflow to BAR file.
+
+==============================================
+
+!Thu Apr 27 10:45:54 COT 2023
+
+Processing file XML_Application\Flow_Compute.esql.
+Dependent ESQL file Flow_Compute1.esql is added to the BAR file.
+
+Successfully added file XML_Application\Flow_Compute.esql to BAR file.
+
+==============================================
+
+!Thu Apr 27 10:45:54 COT 2023
+
+Processing file XML_Application\Flow_Compute1.esql.
+Dependent ESQL file Flow_Compute.esql is added to the BAR file.
+
+Successfully added file XML_Application\Flow_Compute1.esql to BAR file.
+
+==============================================
+
+!Thu Apr 27 10:45:54 COT 2023
+
+Processing file XML_Application\Flow_Compute2.esql.
+Successfully added file XML_Application\Flow_Compute2.esql to BAR file.
+
+==============================================
+
+!Thu Apr 27 10:45:54 COT 2023
+
+Processing file XML_Application\application.descriptor.
+Successfully added file XML_Application\application.descriptor to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file XML_Application\application.descriptor to BAR file.
+
+==============================================
+
+!Thu Apr 27 10:45:54 COT 2023
+
+Processing file XML_Application\application.descriptor.
+Successfully added file XML_Application\application.descriptor to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file XML_Application\application.descriptor to BAR file.

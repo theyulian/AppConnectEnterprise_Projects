@@ -1,0 +1,53 @@
+Reto1_HelloWorld>>>>TEST_SERVER>>SUCCESS>>1680490696653
+BIP9332I<<Application 'Reto1_HelloWorld' se ha created correctamente. <<1680490696653
+BIP9326I<<El origen 'Reto1_HelloWorldproject.generated.bar' se ha desplegado correctamente. <<1680490696653
+Reto1_HelloWorld>>>>TEST_SERVER>>SUCCESS>>1680490790997
+BIP9332I<<Application 'Reto1_HelloWorld' se ha changed correctamente. <<1680490790997
+BIP9326I<<El origen 'Reto1_HelloWorldproject.generated.bar' se ha desplegado correctamente. <<1680490790997
+Reto1_HelloWorld>>>>TEST_SERVER>>SUCCESS>>1680493091482
+BIP9332I<<Application 'Reto1_HelloWorld' se ha changed correctamente. <<1680493091482
+BIP9326I<<El origen 'Reto1_HelloWorldproject.generated.bar' se ha desplegado correctamente. <<1680493091482
+MQAppPolicy>>>>RETO1_MQ_SERVER>>SUCCESS>>1680564940929
+BIP9332I<<PolicyProject 'MQAppPolicy' se ha created correctamente. <<1680564940929
+BIP9326I<<El origen 'MQAppPolicyproject.generated.bar' se ha desplegado correctamente. <<1680564940929
+Reto1_MQ_Connection>>>>RETO1_MQ_SERVER>>SUCCESS>>1680565001832
+BIP9332I<<Application 'Reto1_MQ_Connection' se ha created correctamente. <<1680565001832
+BIP9326I<<El origen 'Reto1_MQ_Connectionproject.generated.bar' se ha desplegado correctamente. <<1680565001832
+MQAppPolicy>>>>RETO1_MQ_SERVER>>SUCCESS>>1680565190388
+BIP9332I<<Policy 'Connection' se ha changed correctamente. <<1680565190388
+BIP9332I<<MessageFlow 'Flow' se ha reloaded correctamente. <<1680565190388
+BIP9326I<<El origen 'MQAppPolicyproject.generated.bar' se ha desplegado correctamente. <<1680565190388
+Reto1_MQ_Connection>>>>RETO1_MQ_SERVER>>SUCCESS>>1680565208818
+BIP9332I<<Application 'Reto1_MQ_Connection' se ha changed correctamente. <<1680565208818
+BIP9326I<<El origen 'Reto1_MQ_Connectionproject.generated.bar' se ha desplegado correctamente. <<1680565208818
+MQAppPolicy>>>>RETO1_MQ_SERVER>>SUCCESS>>1680565527333
+BIP9332I<<Policy 'Connection' se ha changed correctamente. <<1680565527333
+BIP9332I<<MessageFlow 'Flow' se ha reloaded correctamente. <<1680565527333
+BIP9326I<<El origen 'MQAppPolicyproject.generated.bar' se ha desplegado correctamente. <<1680565527333
+Reto1_MQ_Connection>>>>RETO1_MQ_SERVER>>SUCCESS>>1680565610308
+BIP9332I<<Application 'Reto1_MQ_Connection' se ha changed correctamente. <<1680565610308
+BIP9326I<<El origen 'Reto1_MQ_Connectionproject.generated.bar' se ha desplegado correctamente. <<1680565610308
+MQAppPolicy>>>>RETO1_MQ_SERVER>>SUCCESS>>1680565912781
+BIP9332I<<Policy 'Connection' se ha changed correctamente. <<1680565912781
+BIP9332I<<MessageFlow 'Flow' se ha reloaded correctamente. <<1680565912781
+BIP9326I<<El origen 'MQAppPolicyproject.generated.bar' se ha desplegado correctamente. <<1680565912781
+Reto1_MQ_Connection>>>>RETO1_MQ_SERVER>>SUCCESS>>1680565928900
+BIP9332I<<Application 'Reto1_MQ_Connection' se ha changed correctamente. <<1680565928900
+BIP9326I<<El origen 'Reto1_MQ_Connectionproject.generated.bar' se ha desplegado correctamente. <<1680565928900
+MQAppPolicy>>>>RETO1_MQ_SERVER>>SUCCESS>>1680567033349
+BIP9332I<<Policy 'Connection' se ha changed correctamente. <<1680567033349
+BIP9332I<<MessageFlow 'Flow' se ha reloaded correctamente. <<1680567033349
+BIP9326I<<El origen 'MQAppPolicyproject.generated.bar' se ha desplegado correctamente. <<1680567033349
+Reto1_MQ_Connection>>>>RETO1_MQ_SERVER>>SUCCESS>>1680567051644
+BIP9332I<<Application 'Reto1_MQ_Connection' se ha changed correctamente. <<1680567051644
+BIP9326I<<El origen 'Reto1_MQ_Connectionproject.generated.bar' se ha desplegado correctamente. <<1680567051644
+Reto1_MQ_Connection>>>>RETO1_MQ_SERVER>>SUCCESS>>1680567176301
+BIP9332I<<Application 'Reto1_MQ_Connection' se ha changed correctamente. <<1680567176301
+BIP9326I<<El origen 'Reto1_MQ_Connectionproject.generated.bar' se ha desplegado correctamente. <<1680567176301
+MQAppPolicy>>>>RETO1_MQ_SERVER>>SUCCESS>>1680567253038
+BIP9332I<<Policy 'Connection' se ha changed correctamente. <<1680567253038
+BIP9332I<<MessageFlow 'Flow' se ha reloaded correctamente. <<1680567253038
+BIP9326I<<El origen 'MQAppPolicyproject.generated.bar' se ha desplegado correctamente. <<1680567253038
+Reto1_MQ_Connection>>>>RETO1_MQ_SERVER>>SUCCESS>>1680567267866
+BIP9332I<<Application 'Reto1_MQ_Connection' se ha changed correctamente. <<1680567267866
+BIP9326I<<El origen 'Reto1_MQ_Connectionproject.generated.bar' se ha desplegado correctamente. <<1680567267866

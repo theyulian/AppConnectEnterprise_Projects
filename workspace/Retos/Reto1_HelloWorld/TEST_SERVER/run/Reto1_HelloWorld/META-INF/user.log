@@ -1,0 +1,36 @@
+
+==============================================
+
+!Thu Apr 27 11:19:07 COT 2023
+
+Processing file Reto1_HelloWorld\HelloWorld_Compute.esql.
+Successfully added file Reto1_HelloWorld\HelloWorld_Compute.esql to BAR file.
+
+==============================================
+
+!Thu Apr 27 11:19:07 COT 2023
+
+Processing file Reto1_HelloWorld\Hello_World.subflow.
+Warning:Hello_World.subflow does not contain an Input or Output node 
+
+Successfully added file Reto1_HelloWorld\Hello_World.subflow to BAR file.
+
+==============================================
+
+!Thu Apr 27 11:19:08 COT 2023
+
+Processing file Reto1_HelloWorld\application.descriptor.
+Successfully added file Reto1_HelloWorld\application.descriptor to BAR file.
+Elapsed time: 0,005 second(s).
+
+Successfully added file Reto1_HelloWorld\application.descriptor to BAR file.
+
+==============================================
+
+!Thu Apr 27 11:19:08 COT 2023
+
+Processing file Reto1_HelloWorld\application.descriptor.
+Successfully added file Reto1_HelloWorld\application.descriptor to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file Reto1_HelloWorld\application.descriptor to BAR file.

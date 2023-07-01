@@ -1,0 +1,19 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+	    DECLARE MensajeSalida REFERENCE TO OutputRoot.XMLNSC.Mensaje;
+	    DECLARE CodigoPais CHAR;
+	    DECLARE Resultado BOOLEAN;
+	
+	    SET MensajeSalida = InputRoot.XMLNSC.Mensaje;
+	    SET CodigoPais = MensajeSalida.CodigoPais;
+	
+	    IF CodigoPais = 'COL' THEN
+	        SET MensajeSalida.DatosPais = CAST(CAST(HttpResponse.Content, BLOB) AS XMLNSC);
+	    ELSE
+	        SET MensajeSalida.DatosPais = '<Pais>No soportado</Pais>';
+	    END IF;
+	
+	    SET Resultado = TRUE;
+	
+	    RETURN Resultado;
+	END;

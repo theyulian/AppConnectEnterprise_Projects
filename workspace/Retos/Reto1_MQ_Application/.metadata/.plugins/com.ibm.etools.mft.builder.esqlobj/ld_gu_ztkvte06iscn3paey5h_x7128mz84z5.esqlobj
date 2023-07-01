@@ -1,0 +1,24 @@
+CREATE COMPUTE MODULE flow_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		DECLARE mensajeEntrada CHAR;
+		DECLARE mensajeSalida CHAR;
+		
+		SET mensajeEntrada = CAST(InputRoot.BLOB.BLOB AS CHAR CCSID InputRoot.MQMD.CodedCharSetId);
+		
+		IF POSITION('Hola' IN mensajeEntrada) > 0 THEN
+		    SET mensajeSalida = 'Saludo' || TOCHAR(CURRENT_TIME, 'HH24MISSDD');
+		ELSE
+		    SET mensajeSalida = 'Error';
+		END IF;
+		
+		SET OutputRoot.MQMD.Format = MQFMT_STRING;
+		SET OutputRoot.MQMD.CodedCharSetId = 1208;
+		SET OutputRoot.BLOB.BLOB = CAST(mensajeSalida AS BLOB CCSID InputRoot.MQMD.CodedCharSetId);
+
+
+        RETURN TRUE;
+		
+	END;
+
+END MODULE;

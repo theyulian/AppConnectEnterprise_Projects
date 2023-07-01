@@ -1,0 +1,12 @@
+
+
+Importing file: C:\Users\003454661\IBM\ACET12\workspace\Retos\Reto1_WSDL\XML_Application\WSDLFile.wsdl
+
+The WSDL import will proceed with bindings WSDLFileSOAP.
+Creating wsdl schema document for file:///C:/Users/003454661/IBM/ACET12/workspace/Retos/Reto1_WSDL/XML_Application/WSDLFile.wsdl.
+Parsing wsdl binding {http://bcp.com.pe/WSDLFile/}WSDLFileSOAP.
+Parsing wsdl binding input NewOperation.
+Parsing wsdl binding output NewOperation.
+Processing doc style for operation NewOperation.
+Populating WSDL schema WSDLFile.xsd.
+Creating file WSDLFile.xsd in the workspace.
